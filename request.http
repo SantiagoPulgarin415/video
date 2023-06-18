@@ -1,0 +1,27 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "1",
+    "nombre": "Santiago",
+    "apellido":"Pulgarin",
+    "cedula":"1214742371"
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "3",
+    "nombre": "Julian",
+    "apellido":"Perez",
+    "cedula":"1234567809"
+}
